@@ -10,12 +10,15 @@ Working title:
 ## Primary files
 
 - `main.tex`: LaTeX source for the paper prepared for arXiv upload
+- `references.bib`: bibliography database for the paper
 - `main.pdf`: locally compiled reference PDF for visual comparison
 
 ## Local build
 
 ```bash
 cd arxiv/v.2
+pdflatex -interaction=nonstopmode -halt-on-error main.tex
+bibtex main
 pdflatex -interaction=nonstopmode -halt-on-error main.tex
 pdflatex -interaction=nonstopmode -halt-on-error main.tex
 ```
@@ -27,10 +30,11 @@ For arXiv submission, upload source rather than PDF-only.
 Current source bundle:
 
 - `main.tex`
+- `references.bib`
+- `main.bbl`
 
-This paper currently uses an inline bibliography rather than a separate
-`.bib` database, so no `references.bib` or `.bbl` file is required for the
-submission source set.
+The file `main.bbl` is intentionally kept with this arXiv bundle so the
+checked-in directory reflects the exact source set to upload.
 
 The local `main.pdf` should be treated as a comparison artifact, not the
 upload format.
@@ -106,13 +110,13 @@ Keywords for internal tracking:
 3. Confirm the chosen primary category is `cs.CY` or adjust it if the paper
    is reframed before submission.
 4. Confirm whether endorsement is needed for the submitting author.
-5. Upload LaTeX source rather than PDF-only.
+5. Upload LaTeX source, bibliography, and generated bibliography output rather than PDF-only.
 6. Preview arXiv's compiled PDF and compare it against local `main.pdf`.
 7. Verify references, title metadata, and abstract metadata before final submission.
 8. Re-check journal preprint compatibility on the day of submission if a journal target is already preferred.
 
 ## Notes on local artifacts
 
-The files `main.aux`, `main.log`, and `main.out` are local build artifacts.
-They are useful for compilation and troubleshooting, but they are not part of
-the paper's intellectual content.
+The files `main.aux`, `main.blg`, `main.log`, and `main.out` are local build
+artifacts. They are useful for compilation and troubleshooting, but they are
+not part of the paper's intellectual content.
