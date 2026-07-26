@@ -1,0 +1,18 @@
+July 2026
+Project notes
+
+26.07.2026
+    1243: Here’s the practical summary of what you have to do next:
+    
+1. Build one small SOFTSIM prototype, not a full platform.
+2. Model one district with three hidden states: stable, strained, critical.
+3. Feed it four observed inputs: temperature_anomaly, grid_load, er_intake, water_disruption.
+4. Add three actions: status_quo, open_cooling_centers, reroute_mobile_generators.
+5. Implement the observational layer first: estimate the current district state from the four inputs.
+6. Implement the interventional layer next: compare what each action is likely to do at the next step.
+7. Implement the counterfactual layer last: after an outcome happens, replay what likely would have happened under the other actions.
+8. Start with hand-authored probability tables and transition rules, not real data or learned models.
+9. Test it on three simple scenarios: mild heat, severe heat, and cascading disruption.
+10. Use that prototype as the first concrete demonstration supporting the paper.
+
+The shortest version is: build a one-district SOFTSIM advisory simulator that estimates stress, compares interventions, and explains missed alternatives.
