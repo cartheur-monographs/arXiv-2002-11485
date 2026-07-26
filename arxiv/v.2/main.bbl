@@ -1,4 +1,4 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{14}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -26,10 +26,77 @@ Eden Medina.
   Allende's Chile}.
 \newblock MIT Press, New York, 2014.
 
+\bibitem[{OECD}(2024)]{oecd2024governing}
+{OECD}.
+\newblock Governing with artificial intelligence: Are governments ready?, 2024.
+\newblock OECD Artificial Intelligence Papers, No. 20.
+
+\bibitem[Kersing et~al.(2022)Kersing, van Zoonen, Putters, and
+  Oldenhof]{kersing2022digital}
+Margot Kersing, Liesbet van Zoonen, Kim Putters, and Lieke Oldenhof.
+\newblock The changing roles of frontline bureaucrats in the digital welfare
+  state: The case of a data dashboard in rotterdam's work and income
+  department.
+\newblock \emph{Data \& Policy}, 4:\penalty0 e24, 2022.
+\newblock \doi{10.1017/dap.2022.16}.
+
+\bibitem[Marienfeldt(2024)]{marienfeldt2024digital}
+Justine Marienfeldt.
+\newblock Does digital government hollow out the essence of street-level
+  bureaucracy? a systematic literature review of how digital tools' foster
+  curtailment, enablement and continuation of street-level decision-making.
+\newblock \emph{Social Policy \& Administration}, 58\penalty0 (5):\penalty0
+  831--855, 2024.
+\newblock \doi{10.1111/spol.12991}.
+
+\bibitem[Sidhu et~al.(2024)Sidhu, Magistro, Stevens, and
+  Loewen]{sidhu2024citizens}
+Dario Sidhu, Beatrice Magistro, Benjamin~Allen Stevens, and Peter~John Loewen.
+\newblock Why do citizens support algorithmic government?
+\newblock \emph{Journal of Public Policy}, 44\penalty0 (3):\penalty0 659--677,
+  2024.
+\newblock \doi{10.1017/S0143814X24000114}.
+
+\bibitem[Guerdan et~al.(2024)Guerdan, Coston, Holstein, and
+  Wu]{guerdan2024predictive}
+Luke Guerdan, Amanda~Lee Coston, Ken Holstein, and Steven Wu.
+\newblock Predictive performance comparison of decision policies under
+  confounding.
+\newblock In \emph{Proceedings of the 41st International Conference on Machine
+  Learning}, volume 235 of \emph{Proceedings of Machine Learning Research},
+  pages 16673--16705. PMLR, 2024.
+\newblock URL \url{https://proceedings.mlr.press/v235/guerdan24a.html}.
+
+\bibitem[Marmarelis et~al.(2024)Marmarelis, Morstatter, Galstyan, and
+  Ver~Steeg]{marmarelis2024policy}
+Myrl~G. Marmarelis, Fred Morstatter, Aram Galstyan, and Greg Ver~Steeg.
+\newblock Policy learning for localized interventions from observational data.
+\newblock In \emph{Proceedings of The 27th International Conference on
+  Artificial Intelligence and Statistics}, volume 238 of \emph{Proceedings of
+  Machine Learning Research}, pages 4456--4464. PMLR, 2024.
+\newblock URL \url{https://proceedings.mlr.press/v238/marmarelis24a.html}.
+
+\bibitem[H{\i}zl{\i} et~al.(2023)H{\i}zl{\i}, John, Juuti, Saarinen,
+  Pietil{\"a}inen, and Marttinen]{hizli2023causal}
+{\c{C}}a{\u{g}}lar H{\i}zl{\i}, S.~T. John, Anne~Tuulikki Juuti, Tuure~Tapani
+  Saarinen, Kirsi~Hannele Pietil{\"a}inen, and Pekka Marttinen.
+\newblock Causal modeling of policy interventions from treatment-outcome
+  sequences.
+\newblock In \emph{Proceedings of the 40th International Conference on Machine
+  Learning}, volume 202 of \emph{Proceedings of Machine Learning Research},
+  pages 13050--13084. PMLR, 2023.
+\newblock URL \url{https://proceedings.mlr.press/v202/hizli23a.html}.
+
 \bibitem[Pearl(2000)]{pearl2000}
 Judea Pearl.
 \newblock \emph{Causality}.
 \newblock Cambridge University Press, 2000.
+
+\bibitem[Tabassi(2023)]{tabassi2023airmf}
+Elham Tabassi.
+\newblock Artificial intelligence risk management framework ({AI RMF} 1.0),
+  2023.
+\newblock NIST AI 100-1, National Institute of Standards and Technology.
 
 \bibitem[Tucker(2017)]{tucker2017ethical}
 Christopher~A. Tucker.
