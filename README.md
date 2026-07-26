@@ -2,22 +2,30 @@
 
 A machine-learning software-systems approach to capture social, regulatory, governance, and climate problems.
 
-## Paper Materials
+## Primary Submission Materials
 
-- [EXTRACTED-PAPER.md](./EXTRACTED-PAPER.md): cleaned Markdown extraction of the February 23, 2020 `v1` PDF
-- [PAPER-REVISION-NOTES.md](./PAPER-REVISION-NOTES.md): paper-focused critique of the current draft
-- [PAPER-REFINEMENT-WORK-PLAN.md](./PAPER-REFINEMENT-WORK-PLAN.md): staged plan for refining the draft as a paper
-- [2002.11485v2.tex](./2002.11485v2.tex): canonical LaTeX manuscript scaffold for the final version
+- [arxiv/v.2/main.tex](./arxiv/v.2/main.tex): arXiv-ready LaTeX source for the revised paper
+- [arxiv/v.2/main.pdf](./arxiv/v.2/main.pdf): locally compiled reference PDF for the arXiv bundle
+- [arxiv/2002.11485v2-arxiv.tar.gz](./arxiv/2002.11485v2-arxiv.tar.gz): prepared source archive for upload
+- [arxiv/v.2/README.md](./arxiv/v.2/README.md): submission notes, metadata, and checklist
 
-The final target for the refined paper is `LaTeX (.tex)`. Supporting Markdown files in this repository are planning and analysis materials; the paper source of truth is the `.tex` manuscript.
+The submission surface for this repository is now the `arxiv/` directory.
 
-## Related Direction
+## Archive
 
-This repository also includes a separate follow-on concept document:
+Non-submission assets retained for history, review, and supporting analysis now live under `archive/`:
 
-- [VOLATCO-CONTINUUM-SCALING-BLUEPRINT.md](./VOLATCO-CONTINUUM-SCALING-BLUEPRINT.md)
+- [archive/original/2002.11485v1.pdf](./archive/original/2002.11485v1.pdf): original February 23, 2020 `v1` paper PDF
+- [archive/revision-work/2002.11485v2.tex](./archive/revision-work/2002.11485v2.tex): root manuscript revision source kept outside the arXiv bundle
+- [archive/revision-work/2002.11485v2.pdf](./archive/revision-work/2002.11485v2.pdf): root review PDF from the revision process
+- [archive/docs/EXTRACTED-PAPER.md](./archive/docs/EXTRACTED-PAPER.md): cleaned extraction of the original `v1` PDF
+- [archive/docs/PAPER-REVISION-NOTES.md](./archive/docs/PAPER-REVISION-NOTES.md): paper-focused critique of the draft
+- [archive/docs/PAPER-REFINEMENT-WORK-PLAN.md](./archive/docs/PAPER-REFINEMENT-WORK-PLAN.md): staged refinement plan
+- [archive/docs/VOLATCO-CONTINUUM-SCALING-BLUEPRINT.md](./archive/docs/VOLATCO-CONTINUUM-SCALING-BLUEPRINT.md): related but non-submission blueprint document
 
-It critiques the original paper from a platform and systems perspective. That document is intentionally separate from the paper-refinement track above.
+## Related Note
+
+The archived `VOLATCO-CONTINUUM-SCALING-BLUEPRINT.md` critiques the original paper from a platform and systems perspective. It is intentionally separate from the arXiv submission track.
 
 _Reference_
 
